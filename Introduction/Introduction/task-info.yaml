@@ -1,0 +1,14 @@
+type: edu
+files:
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: introduction.py
+  visible: true
+  placeholders:
+  - offset: 87
+    length: 7
+    placeholder_text: Enter your name here!
+- name: tests/test_task.py
+  visible: false

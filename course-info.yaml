@@ -1,0 +1,15 @@
+title: Programming Basics in Python HNR
+language: English
+summary: "Excercise and learn all programming basics and Python syntax.\nSubjects\
+  \ are:\n* Variables\n* Datatypes\n* Statements\n* Operators\n* Conditionals\n* Functions\n\
+  * Classes\n* Methods\n* Arrays\n\nAll subjects should be excercised chronologically\
+  \ for optimal understanding. Please contact one of your teachers whenever you have\
+  \ a question. We would like to stimulate even small and seemingly stupid questions!\
+  \ Because there is no such thing as a stupid question!\n\nContact me @: e.henraat@ma-web.nl\n\
+  \  "
+programming_language: Python
+environment: unittest
+solutions_hidden: true
+content:
+- Introduction
+- Variables

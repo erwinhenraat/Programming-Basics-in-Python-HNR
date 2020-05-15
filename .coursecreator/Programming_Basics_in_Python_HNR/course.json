@@ -1,0 +1,173 @@
+{
+  "environment" : "unittest",
+  "summary" : "Excercise and learn all programming basics and Python syntax.\nSubjects are:\n* Variables\n* Datatypes\n* Statements\n* Operators\n* Conditionals\n* Functions\n* Classes\n* Methods\n* Arrays\n\nAll subjects should be excercised chronologically for optimal understanding. Please contact one of your teachers whenever you have a question. We would like to stimulate even small and seemingly stupid questions! Because there is no such thing as a stupid question!\n\nContact me @: e.henraat@ma-web.nl\n  ",
+  "title" : "Programming Basics in Python HNR",
+  "programming_language" : "Python",
+  "language" : "en",
+  "course_type" : "PyCharm",
+  "solutions_hidden" : true,
+  "items" : [
+    {
+      "title" : "Introduction",
+      "task_list" : [
+        {
+          "name" : "Introduction",
+          "files" : {
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "introduction.py" : {
+              "name" : "introduction.py",
+              "placeholders" : [
+                {
+                  "offset" : 87,
+                  "length" : 21,
+                  "possible_answer" : "Student",
+                  "placeholder_text" : "Enter your name here!"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "# todo: Enter your name and click the check button\ndef name(n):\n    return n\n\n_name = \"Enter your name here!\"\n\nprint(\"Welcome and good luck \"+name(_name)+\"!\")"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..introduction import name\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(name(\"Erwin\"), \"Erwin\", msg=\"Good luck with this course\")\n"
+            }
+          },
+          "description_text" : "<html>\n<h1>Introduction</h1>\n<p>\n    Welcome to programming! With this course you will learn the basics of programming.\n    You will learn and use the Python language syntax to exercise these programming basics.\n    No prior programming skills or knowledge is needed for this course.\n</p>\n<h2>Why Python?</h2>\n<p>\n    <b>Why not?!</b>\n    Any programming language is suitable to start learning programming.\n    As long as you want to learn and take your time.\n    The Python language is being greatly used for teaching and learning programming.\n    Therefore there are a ton of resources online that are usefull for learning.\n</p>\n<H2>What will you learn</H2>\n<p>\n    As the course title says: The basics of programming.\n    All these basics also translate to other programming languages.\n    After successfully finishing this course you will be able to not only use Python in a very basic way, but also other programming languages after a little research on their syntax.\n</p>\n<p>Subjects in this course are:\n<ul>Variables</ul>\n<ul>Datatypes</ul>\n<ul>Statements</ul>\n<ul>Operators</ul>\n<ul>Conditionals</ul>\n<ul>Functions</ul>\n<ul>Classes</ul>\n<ul>Methods</ul>\n<ul>Arrays</ul>\n</p>\n<p>\n    All subjects should be excercised chronologically for optimal understanding.\n    Please contact one of your teachers whenever you are having trouble or a question.\n    We would like to stimulate even small and seemingly stupid questions.\n    <b>Because there is no such thing as a stupid question!</b>\n</p>\n<p>\n    Contact me @: <a href=\"mailto:e.henraat@ma-web.nl?subject=question @Programming Basics in Python \">e.henraat@ma-web.nl</a>\n</p>\n<p>Please click <b>check</b> to continue.</p>\n\n</html>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "title" : "Variables",
+      "task_list" : [
+        {
+          "name" : "Variables",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "if __name__== \"__main__\":\n    # Write your solution here\n    pass\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<h1>Variables</h1>\n\n<p>Explain variables</p>\n<p>Explain variables</p>\n<p>Explain variables</p>\n<p>Explain variables</p>\n<p>Explain variables</p>\n<p>Explain variables</p>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "choiceOptions" : [
+            {
+              "text" : "option 1",
+              "status" : "INCORRECT"
+            },
+            {
+              "text" : "option 2",
+              "status" : "INCORRECT"
+            },
+            {
+              "text" : "option 3",
+              "status" : "CORRECT"
+            },
+            {
+              "text" : "option 4",
+              "status" : "INCORRECT"
+            }
+          ],
+          "isMultipleChoice" : false,
+          "name" : "Quiz",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "if __name__== \"__main__\":\n    # Write your solution here\n    pass\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<h1>Quiz time</h1>\n<p>Did you understand the theory on Variables?</p>\n<p>let's do a little quiz:</p>\n\n<p>Whitch of the following statements is true?\n<ul>Option 1 : \"Variables are used to print characters to the screen (console).\"</ul>\n<ul>Option 2 : \"Variables are used to save data to an external file, like a .txt file.\"</ul>\n<ul>Option 3 : \"Variables are references to a piece of memory where data can be stored.\"</ul>\n<ul>Option 4 : \"Variables are pieces of script that can translate python code to executable machine code\"</ul>\n</p>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "choice"
+        },
+        {
+          "name" : "Excersize",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [
+                {
+                  "offset" : 86,
+                  "length" : 24,
+                  "possible_answer" : "name = \"good morning\"",
+                  "placeholder_text" : "Write your variable here"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "# todo: Create a variable with te reference \"name\" and store the value \"good morning\"\nWrite your variable here\n"
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import unittest\n\nfrom ..task import name\n\n\n# todo: replace this with an actual test\nclass TestCase(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(name, \"good morning\", msg=\"Good morning to you too\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "<html>\n<h1>Variable Excersize</h1>\n<p>Create your own variable here that contains a specific value</p>\n<p>Remember that a variable has a <b>reference</b> and a <b>value</b></p>\n<p>Example:<i><b> name = \"Erwin henraat\"</b></i>\n\n<p>Where <i><b>name</i></b> is called the reference and <i><b>\"Erwin Henraat\"</i></b> the value.</p>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "version" : 11
+}
